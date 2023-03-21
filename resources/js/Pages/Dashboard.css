@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Ultra&display=swap');
+
+.welcome{
+    margin-bottom: 1rem;
+}
+.primeiro-pr{
+    display: flex;
+}
+.linha-horizontal{
+    align-items: center;
+    width: 18%;
+    height: 2px;
+    background-color: #fff;
+    /* border: 2px solid #fff; */
+    margin-top: 10px;
+    margin-right: 8px;
+}
+.div-titulo h1{
+    font-weight: 400;
+    font-size: 40px;
+    text-transform: uppercase;
+    font-family: 'Ultra', serif;
+}
+.div-frase{
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    padding: 2rem 0.5rem;
+    margin: 2.5rem 0 1rem 0;
+    border-top: 3px solid #fff;
+}
+.div-frase .aspas{
+    font-size: 70px;
+    /* align-items: center; */
+    border: 3px solid #fff;
+    border-radius: 5px;
+    padding: 10px;
+}
+.div-frase p{
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.div-btn{
+    margin-top: 1rem 0;
+    
+}
+.div-btn a{
+    border: 2px solid #fff;
+    padding: 15px 25px;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 500;
+    transition: all 0.5s;
+    display: flex;
+    text-align: left;
+    align-items: center;
+    width: fit-content;
+    gap: 1rem;
+}
+.div-btn a:hover{
+    background-color: #e4e4e4;
+    color: #000;
+}
+.logo-gr{
+    display: none;
+}
+
+@media screen and (min-width: 996px){
+    .welcome{
+        display: flex;
+        justify-content: center;
+        gap: 1rem;
+        margin-bottom: 4rem;
+    }
+    .div-inicio{
+        width: 50%;
+        padding-top: 1rem;
+    }
+    .div-inicio h1{
+        font-size: 50px;
+    }
+    .div-frase{
+        width: 90%;
+    }
+    .logo-gr{
+        display: flex;
+        width: 40%;
+        padding: 0;
+    }
+    .logo-gr img{
+        width: 100%;
+    }
+}

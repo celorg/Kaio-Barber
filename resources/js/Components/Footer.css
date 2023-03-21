@@ -1,0 +1,46 @@
+footer{
+    background-color: #000;
+    border-top: 3px solid #fff;
+    padding: 0 1rem 1rem 1rem ;
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+footer div{
+    margin: 0.5rem auto;
+    flex-direction: column;
+}
+footer div h6{
+    text-align: center;
+    font-size: 18px;
+    font-weight: bolder;
+}
+footer div ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+footer .div-info p{
+    white-space: nowrap;
+}
+footer .div-redes ul{
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+.div-redes ul a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 26px;
+}
+
+
+@media screen and (min-width: 992px) {
+    footer{
+        display: flex;
+        justify-content: space-between;
+        flex-direction: unset;
+        align-items: center;
+    }
+}
